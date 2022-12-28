@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Number Guessing Game</title>
+
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <!-- SIGN UP DIV -->
+  <hr />
+
+  <h1>Number Guessing Game</h1>
+  <br>
+  Difficulty Level:
+  <button id="easy" value="easy">Easy (0-10)</button>
+  <button id="medium" value="medium">Medium (0-20)</button>
+  <button id="hard" value="hard">Hard (0-50)</button>
+  <hr>
+
+  <p>
+  <div id="difficultyText">Please enter a number between 0-20!</div>
+  </p>
+
+
+
+  <input type="text" id="guess" />
+
+  <p><button id="btn">Guess</button> </p>
+  <hr>
+  <h2>
+    Guesses so far:
+    <h3>
+      <div id="guesses"></div>
+    </h3>
+    <hr>
+
+
+    <br>
+    <button id="restart-btn">Restart Game</button>
+  </h2>
+  </h2>
